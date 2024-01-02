@@ -3,14 +3,16 @@ using System;
 using CRUD.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CRUD.Migrations
 {
     [DbContext(typeof(agendamentoContext))]
-    partial class agendamentoContextModelSnapshot : ModelSnapshot
+    [Migration("20240102203638_SegundaMigracao")]
+    partial class SegundaMigracao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,9 +33,7 @@ namespace CRUD.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Observacoes")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Telefone")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
