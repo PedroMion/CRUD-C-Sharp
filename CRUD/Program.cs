@@ -1,4 +1,5 @@
 using CRUD.Models;
+using CRUD.Pages;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
