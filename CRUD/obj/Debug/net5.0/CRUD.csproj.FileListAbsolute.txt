@@ -1,0 +1,10 @@
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.csproj.AssemblyReference.cache
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.AssemblyInfoInputs.cache
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.AssemblyInfo.cs
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.csproj.CoreCompileInputs.cache
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.MvcApplicationPartsAssemblyInfo.cs
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.MvcApplicationPartsAssemblyInfo.cache
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.RazorAssemblyInfo.cache
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.RazorAssemblyInfo.cs
+D:\.Importante\Programação\C#\CRUD-C-Sharp\CRUD\obj\Debug\net5.0\CRUD.sourcelink.json

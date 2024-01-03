@@ -4,13 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-const string conexao = "server=localhost;port=3306;user=root;database=agendamento";
-
 // Add services to the container.
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 builder.Services.AddDbContext<agendamentoContext>(options => {
-    options.UseMySQL(conexao);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 var app = builder.Build();

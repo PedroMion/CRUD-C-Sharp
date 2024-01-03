@@ -20,7 +20,7 @@ namespace CRUD.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;database=agendamento");
+                optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=agendamento;Trusted_Connection=True;");
             }
         }
 

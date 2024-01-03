@@ -1,0 +1,49 @@
+@page
+@model VisualizarModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@using CRUD.Models
+
+<div class="text-center">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Data</th>
+                <th>Observações</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach(Agendamento agendamento in Model.ListaAgendamentos)
+            {
+                <tr>
+                    <td>
+                        @agendamento.Id
+                    </td>
+
+                    <td>
+                        @agendamento.Nome
+                    </td>
+
+                    <td>
+                        @agendamento.Telefone
+                    </td>
+
+                    <td>
+                        @agendamento.DataAgendamento
+                    </td>
+
+                    <td>
+                        @agendamento.Observacoes
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
