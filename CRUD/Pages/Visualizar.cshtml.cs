@@ -23,5 +23,10 @@ namespace CRUD.Pages {
         {
             ListaAgendamentos = _context.Agendamentos.ToList();
         }
+
+        public void Deletar(int id)
+        {
+            Console.WriteLine("Teste");
+        }
     }
 }
