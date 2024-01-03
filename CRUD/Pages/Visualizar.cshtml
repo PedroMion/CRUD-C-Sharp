@@ -14,6 +14,7 @@
                 <th>Telefone</th>
                 <th>Data</th>
                 <th>Observações</th>
+                <th>Botões</th>
             </tr>
         </thead>
 
@@ -40,6 +41,10 @@
 
                     <td>
                         @agendamento.Observacoes
+                    </td>
+
+                    <td>
+                        <a asp-page="/Editar" asp-route-id="@agendamento.Id">Editar</a>
                     </td>
                 </tr>
             }
