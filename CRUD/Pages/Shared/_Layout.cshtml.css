@@ -46,3 +46,20 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao {
+  width: 30px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}

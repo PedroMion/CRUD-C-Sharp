@@ -4137,19 +4137,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pedro\\.nuget\\packages\\": {}
+    "/home/pedro/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Importante\\Programação\\C#\\CRUD-C-Sharp\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "/home/pedro/Programacao/C#/CRUD-C-Sharp/CRUD/CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "D:\\.Importante\\Programação\\C#\\CRUD-C-Sharp\\CRUD\\CRUD.csproj",
-      "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-      "outputPath": "D:\\.Importante\\Programação\\C#\\CRUD-C-Sharp\\CRUD\\obj\\",
+      "projectPath": "/home/pedro/Programacao/C#/CRUD-C-Sharp/CRUD/CRUD.csproj",
+      "packagesPath": "/home/pedro/.nuget/packages/",
+      "outputPath": "/home/pedro/Programacao/C#/CRUD-C-Sharp/CRUD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/pedro/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -4217,7 +4217,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
