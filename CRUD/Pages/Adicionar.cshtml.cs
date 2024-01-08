@@ -32,7 +32,7 @@ namespace CRUD.Pages {
                 _context.SaveChanges();
             }
 
-            return RedirectToPage();
+            return RedirectToPage("Visualizar");
         }
     }
 }

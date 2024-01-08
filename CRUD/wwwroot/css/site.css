@@ -59,3 +59,23 @@ body {
 .subtitulo {
   margin-top: 50px;
 }
+
+.botao-visualizar {
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+}
+
+#colBotao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerForm {
+  width: 30vw;
+  height: 500px;
+  background-color: red;
+}

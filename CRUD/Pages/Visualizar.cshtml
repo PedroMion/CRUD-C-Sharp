@@ -6,7 +6,7 @@
 @using CRUD.Models
 
 <div class="text-center">
-    <table>
+    <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
@@ -43,14 +43,18 @@
                         @agendamento.Observacoes
                     </td>
 
-                    <td>
-                        <a asp-page="/Editar" asp-route-id="@agendamento.Id">Editar</a>
+                    <td id="colBotao">
+                        <a asp-page="/Editar" asp-route-id="@agendamento.Id" class="botao botao-visualizar" >Editar</a>
 
-                        <a asp-page="/Deletar" asp-route-id="@agendamento.Id">Deletar</a>
+                        <a asp-page="/Deletar" asp-route-id="@agendamento.Id" class="botao botao-visualizar" >Deletar</a>
                     </td>
                 </tr>
             }
 
         </tbody>
     </table>
+
+    <div class="botao-div">
+        <a class="botao" href="./Adicionar">Adicionar Novo</a>
+    </div>
 </div>

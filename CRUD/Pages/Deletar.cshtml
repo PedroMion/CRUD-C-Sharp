@@ -20,9 +20,11 @@
         <p>Observações:</p>
         <input type="text" name="observacoes" asp-for="Agendamento.Observacoes" />
 
-        <button type="submit">Excluir</button>
+        <div class="botao-div">
+            <button type="submit" class="botao">Excluir</button>
 
-        <a asp-page="/Visualizar">Cancelar</a>
+            <a asp-page="/Visualizar" class="botao">Cancelar</a>
+        </div>
     </form>
 
 </div>

@@ -50,7 +50,7 @@ namespace CRUD.Pages {
             {
                 Agendamento = agend;
                 _context.Agendamentos.Remove(Agendamento);
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
             }
 
             return RedirectToPage("Visualizar");
